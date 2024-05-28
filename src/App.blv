@@ -1,0 +1,14 @@
+html:
+  <div class="container">
+    <h1>Welcome to Your Blve App!</h1>
+    <div id="incrementer">
+      <p>Count: ${count}</p>
+      <button @click="count++">Increment</button>
+    </div>
+  </div>
+script:
+  let count = 0;
+style:
+  h1 {
+    color: blue;
+  }
