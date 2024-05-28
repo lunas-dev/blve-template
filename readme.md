@@ -12,7 +12,7 @@ A template for creating a new Blve project.
 
 ```bash
 npm install -g tiged # Tool for copying this template
-tiged blvedev/template your-project-name
+tiged blvedev/blve-template your-project-name
 cd your-project-name
 npm install
 ```
